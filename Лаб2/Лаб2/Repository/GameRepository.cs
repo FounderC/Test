@@ -4,10 +4,10 @@ namespace Лаб2.Repository
 {
     public class GameRepository : IGameRepository
     {
-        private DbContext dbContext;
+        private DbContext.DbContext dbContext;
 
         // Конструктор
-        public GameRepository(DbContext context)
+        public GameRepository(DbContext.DbContext context)
         {
             dbContext = context;
         }
