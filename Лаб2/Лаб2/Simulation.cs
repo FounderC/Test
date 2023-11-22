@@ -12,7 +12,7 @@ namespace Лаб2
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             GameFactory gameFactory = new GameFactory();
-            DbContext.DbContext dbContext = new DbContext();
+            DbContext.DbContext dbContext = new DbContext.DbContext();
 
             // Створюємо репозиторії для роботи з базою даних
             IPlayerRepository playerRepository = new PlayerRepository(dbContext);
@@ -145,7 +145,7 @@ namespace Лаб2
                     throw new ArgumentException("Некоректний вибір типу гри.");
             }
         }
-        static Player GetRandomOpponent(DbContext dbContext, int playerId)
+        static Player GetRandomOpponent(DbContext.DbContext dbContext, int playerId)
         {
             List<Player> opponents = dbContext.Players.FindAll(p => p.Id != playerId);
             int index = new Random().Next(0, opponents.Count);

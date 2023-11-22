@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace Лаб2
 {
-    abstract class GameAccount
+    public abstract class GameAccount
     {
         protected string UserName;
-        protected int CurrentRating;
+        public int CurrentRating;
         protected int GamesCount;
         protected List<Result> History;
         

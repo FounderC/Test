@@ -4,10 +4,10 @@ namespace Лаб2.Repository
 {
     public class PlayerRepository : IPlayerRepository
     {
-        private DbContext dbContext;
+        private DbContext.DbContext dbContext;
 
         // Конструктор
-        public PlayerRepository(DbContext context)
+        public PlayerRepository(DbContext.DbContext context)
         {
             dbContext = context;
         }
