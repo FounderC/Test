@@ -1,0 +1,7 @@
+C:\Users\Khome\Desktop\КПІ\2 курс\1 семестр\Об'єктно-орієнтоване програмування\Лаб\OOP TEST\OOP TEST\bin\Debug\OOP TEST.exe.config
+C:\Users\Khome\Desktop\КПІ\2 курс\1 семестр\Об'єктно-орієнтоване програмування\Лаб\OOP TEST\OOP TEST\bin\Debug\OOP TEST.exe
+C:\Users\Khome\Desktop\КПІ\2 курс\1 семестр\Об'єктно-орієнтоване програмування\Лаб\OOP TEST\OOP TEST\bin\Debug\OOP TEST.pdb
+C:\Users\Khome\Desktop\КПІ\2 курс\1 семестр\Об'єктно-орієнтоване програмування\Лаб\OOP TEST\OOP TEST\obj\Debug\OOP TEST.csproj.AssemblyReference.cache
+C:\Users\Khome\Desktop\КПІ\2 курс\1 семестр\Об'єктно-орієнтоване програмування\Лаб\OOP TEST\OOP TEST\obj\Debug\OOP TEST.csproj.CoreCompileInputs.cache
+C:\Users\Khome\Desktop\КПІ\2 курс\1 семестр\Об'єктно-орієнтоване програмування\Лаб\OOP TEST\OOP TEST\obj\Debug\OOP TEST.exe
+C:\Users\Khome\Desktop\КПІ\2 курс\1 семестр\Об'єктно-орієнтоване програмування\Лаб\OOP TEST\OOP TEST\obj\Debug\OOP TEST.pdb
