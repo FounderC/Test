@@ -131,7 +131,7 @@ namespace Лаб2
             }
         }
 
-        static GameData CreateGame(int gameTypeChoice, int rating)
+        static Game CreateGame(int gameTypeChoice, int rating)
         {
             switch (gameTypeChoice)
             {
@@ -145,6 +145,7 @@ namespace Лаб2
                     throw new ArgumentException("Некоректний вибір типу гри.");
             }
         }
+
         static Player GetRandomOpponent(DbContext.DbContext dbContext, int playerId)
         {
             List<Player> opponents = dbContext.Players.FindAll(p => p.Id != playerId);

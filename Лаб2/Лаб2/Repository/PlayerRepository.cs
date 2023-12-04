@@ -5,14 +5,12 @@ namespace Лаб2.Repository
     public class PlayerRepository : IPlayerRepository
     {
         private DbContext.DbContext dbContext;
-
-        // Конструктор
+        
         public PlayerRepository(DbContext.DbContext context)
         {
             dbContext = context;
         }
 
-        // Методи CRUD для класу Player
         public void CreatePlayer(Player player)
         {
             dbContext.Players.Add(player);
@@ -43,7 +41,6 @@ namespace Лаб2.Repository
             }
         }
 
-        // Метод, який оновлює рейтинг гравця в базі даних
         public void UpdatePlayerRating(int id, int newRating)
         {
             Player player = dbContext.GetPlayerById(id);
